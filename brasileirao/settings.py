@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'brasileirao.jogadores',
+    'brasileirao.times',
     'rest_framework',
     'django_filters',
 ]
