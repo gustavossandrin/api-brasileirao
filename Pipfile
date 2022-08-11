@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+python-decouple = "*"
+gunicorn = "*"
+django-s3-folder-storage = "*"
+psycopg2-binary = "*"
+dj-database-url = "*"
+
+[dev-packages]
+pytest-django = "*"
+flake8 = "*"
+
+[requires]
+python_version = "3.9"
