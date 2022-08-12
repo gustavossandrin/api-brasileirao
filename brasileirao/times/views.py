@@ -9,4 +9,4 @@ class TimesViewSet(viewsets.ModelViewSet):
     queryset = Times.objects.all()
     serializer_class = TimesSerializer
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['nome', ]
+    filterset_fields = ['nome']
