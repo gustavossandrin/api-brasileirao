@@ -7,3 +7,4 @@ class JogadorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Jogador
         fields = ('id', 'nome', 'time', 'idade', 'posicao')
+        depth = 1

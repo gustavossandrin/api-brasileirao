@@ -7,3 +7,4 @@ class TimesSerializer(serializers.ModelSerializer):
     class Meta:
         model = Times
         fields = ('id', 'nome')
+
